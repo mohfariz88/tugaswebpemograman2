@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pariwisata Nusa Penida</title>
+    <style>
+        section {
+            padding: 40px;
+            text-align: justify;
+        }
+
+        .dropbtn {
+            background-color: rgba(51, 51, 51, 0.7);
+            color: white;
+            padding: 16px;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(51, 51, 51, 0.7);
+            min-width: 160px;
+            box-shadow: coral;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: coral
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: coral;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Styling untuk judul tabel */
+        h2 {
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .main-content {
+            grid-column: span 8;
+            text-align: left;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        section {
+            text-align: center;
+            padding: 40px;
+
+        }
+
+        .comment-form {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        .submit-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #000000;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;padding: 0;">
+
+    <div class="topnav"
+        style="width: 100%; position: fixed; z-index: 1; background-color: rgba(51, 51, 51, 0.7);height: 7vh;display: flex; justify-content: end;align-items: center;">
+        <a href="#beranda" style="color: white;padding: 20px; text-decoration: none;">Beranda</a>
+        <a href="#wisata" style="color: white;padding: 20px; text-decoration: none;">Wisata</a>
+        <a href="#penginapan" style="color: white;padding: 20px; text-decoration: none;">Penginapan</a>
+        <a href="#kontak" style="color: white;padding: 20px; text-decoration: none;">Kontak</a>
+        <div class="dropdown">
+            <button class="dropbtn">Lainnya</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: relative;;">
+        <img src="asset/sore.jpg " alt="" width="100%" height="100%">
+        <h1 style="position: absolute; top: 28%; left: 535px; color: white;font-size: 80px;">Nusapenida</h1>
+        <h1
+            style="position: absolute; top: 52%; left: 630px; color: white;font-size: 15px;font-weight: 100;font-family: Arial, Helvetica, sans-serif;">
+            SURGA TERSEMBUNYI DI BALI</h1>
+    </div>
+
+    <section id="beranda" style="width: 500px;margin:auto;text-align: justify;">
+        <h2>Beranda</h2>
+        <p>Nusa Penida adalah sebuah pulau (nusa) bagian dari negara Republik Indonesia yang terletak di sebelah
+            tenggara Bali yang dipisahkan oleh Selat Badung. Di dekat pulau ini terdapat juga pulau-pulau kecil lainnya
+            yaitu Nusa Ceningan dan Nusa Lembongan. Perairan pulau Nusa Penida terkenal dengan kawasan selamnya di
+            antaranya terdapat di Crystal Bay, Manta Point, Batu Meling, Batu Lumbung, Batu Abah, Toyapakeh dan Malibu
+            Point.</p>
+    </section>
+
+    <section id="wisata" style="width: 500px;margin:auto;text-align: justify;">
+        <h2>Wisata</h2>
+        <p>Pulau ini memiliki banyak destinasi wisata yang menarik, terutama di bagian barat seperti Pantai Klingking
+            dan Pantai Broken. Selain itu, perairan pulau Nusa Penida terkenal dengan kawasan selamnya di antaranya
+            terdapat di Crystal Bay, Manta Point, Batu Meling, Batu Lumbung, Batu Abah, Toyapakeh dan Malibu Point.
+            Destinasi wisata di Nusa Penida semakin berkembang, dan infrastruktur wisata serta pengembangan akses ke
+            lokasi destinasi wisata sudah mulai tumbuh. Namun, wisatawan yang berkunjung ke Nusa Penida harus membayar
+            retribusi dengan sistem tiket online.</p>
+    </section>
+
+    <section id="penginapan" style="width: 500px;margin:auto;text-align: justify;">
+        <h2>Penginapan</h2>
+        <p>Nusa Penida memiliki beragam pilihan penginapan yang dapat dipilih oleh wisatawan yang berkunjung. Berikut
+            adalah beberapa pilihan penginapan yang ada di Nusa Penida: Angels Bungalow, Adiwana Warnakali Resort, Mambo
+            Beach Resort, Pramana Natura Nusa Penida, Tropical Glamping. Namun, perlu diingat bahwa beberapa penginapan
+            di Nusa Penida menerapkan sistem pemesanan online, sehingga wisatawan perlu mempersiapkan diri dengan
+            memesan penginapan terlebih dahulu sebelum berkunjung ke Nusa Penida. Klik <a
+                href="https://www.tiket.com/hotel/indonesia/area/nusa-penida-108001534490278628">disini.</a></p>
+
+        <h2 style="font-size: 18px;">Fasilitas Akomodasi di Nusa Penida</h2>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nama Hotel / Penginapan</th>
+                <th>Jenis Akomodasi</th>
+                <th>Lokasi</th>
+                <th>Tarif per Malam (IDR)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Warung Guesthouse</td>
+                <td>Guesthouse</td>
+                <td>Desa Toyapakeh</td>
+                <td>300,000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nusa Penida Hostel</td>
+                <td>Hostel</td>
+                <td>Desa Ped</td>
+                <td>150,000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Semabu Hills Hotel</td>
+                <td>Hotel</td>
+                <td>Desa Tanglad</td>
+                <td>900,000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Penida Bay Village</td>
+                <td>Resort</td>
+                <td>Desa Sakti</td>
+                <td>1,500,000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Suana Eco Resort</td>
+                <td>Resort</td>
+                <td>Desa Batununggul</td>
+                <td>1,200,000</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section id="kontak" style="width: 500px;margin:auto;text-align: justify;">
+        <h2>Kontak</h2>
+        <p>NusaPenida.com: Jalan Hayam Wuruk No. 159, Denpasar, Bali 80235, 0361 4743075.</p>
+        <p>Info lebih lanjut, klik <a href="https://www.tiket.com/explore/nusa-penida">disini</a></p>
+
+    </section>
+
+    <div class="comment-form">
+        <h2>Form Komentar</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="komentar">Komentar:</label>
+                <textarea id="komentar" name="komentar" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Kirim Komentar</button>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <p>&copy; 2023 Pariwisata Nusa Penida</p>
+    </footer>
+</body>
+
+</html>
